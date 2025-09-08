@@ -37,7 +37,7 @@ export const GroupsHeader = ({ statusSummary, loading, onRefresh }: GroupsHeader
             <G01Logo className="h-16 w-auto" />
             <div>
               <h1 className="text-3xl font-poppins font-semibold text-g01-dark dark:text-white">
-                SHARK ACELERADORA
+                G01 ASSESSORIA
               </h1>
               <p className="text-g01-gray-medium dark:text-gray-300 font-inter font-medium">
                 Painel de Grupos de Clientes

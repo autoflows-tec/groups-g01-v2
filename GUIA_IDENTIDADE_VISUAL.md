@@ -1,6 +1,6 @@
-# Guia de Alteração da Identidade Visual - Shark Aceleradora Grupos
+# Guia de Alteração da Identidade Visual - G01 Assessoria Grupos
 
-Este documento fornece um passo a passo completo para alterar a identidade visual do sistema de gerenciamento de grupos da Shark Aceleradora.
+Este documento fornece um passo a passo completo para alterar a identidade visual do sistema de gerenciamento de grupos da G01 Assessoria.
 
 ## 📁 Estrutura de Arquivos da Identidade Visual
 
@@ -16,13 +16,13 @@ Este documento fornece um passo a passo completo para alterar a identidade visua
 - Componentes UI em `src/components/ui/` - Botões, cards, etc.
 
 ### Assets (Imagens e Logos)
-- `public/shark-logo.jpg` - Logo principal da Shark Aceleradora
+- `public/shark-logo.jpg` - Logo principal da G01 Assessoria
 - `public/favicon.ico` - Favicon do site
 - `public/placeholder.svg` - Imagem placeholder
 
 ## 🎨 Sistema de Cores Atual
 
-### Cores Primárias da Shark Aceleradora (definidas em `src/index.css:46-51`)
+### Cores Primárias da G01 Assessoria (definidas em `src/index.css:46-51`)
 ```css
 --shark-orange: #2463F5;      /* Laranja principal da marca */
 --shark-light-gray: #D9D9D9;  /* Cinza claro */
@@ -147,7 +147,7 @@ Atualize as variáveis CSS dentro da classe `.dark` para refletir suas cores no 
 Os botões já usam as classes `bg-e3-orange` e `hover:bg-e3-orange/90`, então as alterações de cor se aplicarão automaticamente.
 
 #### 6.2 Cards e componentes
-Procure por classes que usam as cores da Shark Aceleradora em:
+Procure por classes que usam as cores da G01 Assessoria em:
 - `src/components/GroupsTable.tsx`
 - `src/components/GroupsStatusSummary.tsx`
 - Outros componentes na pasta `src/components/`
